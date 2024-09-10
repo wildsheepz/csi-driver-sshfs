@@ -68,7 +68,7 @@ spec:
               cpu: 10m
               memory: 20Mi
         - name: sshfs
-          image: ghcr.io/robin-rpr/sshfsplugin:nightly
+          image: kuanyong/sshfsplugin:latest
           securityContext:
             privileged: true
             capabilities:

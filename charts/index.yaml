@@ -1,4 +1,22 @@
 apiVersion: v1
 entries:
   csi-driver-sshfs:
+    - apiVersion: v1
+      appVersion: v0.1.0
+      created: "2024-09-01T13:40:07.352508187Z"
+      description: SSHFS CSI Driver for Kubernetes
+      digest: 439b4902018b786495211bcffb85f885cf1cf293477d7e3755c71dcd89d6add4
+      name: csi-driver-sshfs
+      urls:
+        - https://raw.githubusercontent.com/wildsheepz/csi-driver-sshfs/master/charts/v0.1.0/csi-driver-sshfs-v0.1.0.tgz
+      version: v0.1.0
+    - apiVersion: v1
+      appVersion: latest
+      created: "2024-09-01T13:40:07.352508187Z"
+      description: SSHFS CSI Driver for Kubernetes
+      digest: 439b4902018b786495211bcffb85f885cf1cf293477d7e3755c71dcd89d6add4
+      name: csi-driver-sshfs
+      urls:
+        - https://raw.githubusercontent.com/wildsheepz/csi-driver-sshfs/master/charts/latest/csi-driver-sshfs-v0.0.0.tgz
+      version: v0.0.0
 generated: "2022-07-05T06:47:20.796518189Z"

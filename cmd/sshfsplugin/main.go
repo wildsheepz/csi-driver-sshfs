@@ -34,7 +34,6 @@ var (
 )
 
 func init() {
-	_ = flag.Set("logtostderr", "true")
 }
 
 func main() {

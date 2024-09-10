@@ -79,7 +79,7 @@ spec:
             capabilities:
               add: ["SYS_ADMIN"]
             allowPrivilegeEscalation: true
-          image: ghcr.io/robin-rpr/sshfsplugin:nightly
+          image: kuanyong/sshfsplugin:latest
           args:
             - "-v=5"
             - "--nodeid=$(NODE_ID)"
